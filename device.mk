@@ -145,10 +145,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl \
     $(LOCAL_PATH)/config/keylayout/mtk-kpd.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/mtk-kpd.kl
 
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.lights-service.chopin
-
 # Location Provider
 ifeq ($(USE_CN_AGPS),true)
 PRODUCT_PACKAGES += \
