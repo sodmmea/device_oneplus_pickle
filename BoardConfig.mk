@@ -43,7 +43,9 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     vbmeta_system \
     vbmeta_vendor \
-    vendor
+    vendor \
+    vendor_boot \
+    vendor_dlkm
 
 # Assertation
 TARGET_OTA_ASSERT_DEVICE := pickle
